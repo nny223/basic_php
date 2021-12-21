@@ -10,7 +10,7 @@ echo "ชื่อ :" .$name[4]. " อายุ :"  .$year[4]."<br>";
 
 echo"<h1>Array ใช้ foreach </h1>"."<br>";
 $color =["black","white","gold","red","blue"];
-$number =["100","300","400","900","500"];
+$number =["100","300","401","900","500"];
 foreach($color as $colors):
 echo "สี :".$colors."<br>";
 endforeach;
